@@ -1,0 +1,25 @@
+.modal__text{
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  font-family: 'Carter One', cursive;
+  font-size: 2rem;
+
+}
+.modal__button{
+  display: flex;
+  margin-left: 0;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40%;
+
+}
+.modal__input{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30%;
+
+}

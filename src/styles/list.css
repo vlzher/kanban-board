@@ -1,0 +1,35 @@
+.list {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: calc(100vh - 160px);
+  width: 400px;
+  outline: 4px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list-upper {
+  outline: 3px solid black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-text {
+  color: rebeccapurple;
+  font-size: 2rem;
+}
+
+.list-lower {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,19 @@
+.button-task {
+  margin-left: 20px;
+  width: 150px;
+  height: 50px;
+  outline: 2px solid black;
+  border-radius: 20px;
+}
+
+.button-task:hover {
+  transition: 0.2s;
+  outline: 2px solid white;
+}
+
+.button-task:active {
+  transition: 0s;
+  outline: 2px solid red;
+}
+
+/*# sourceMappingURL=custom-button.css.map */
