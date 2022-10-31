@@ -1,4 +1,4 @@
 import * as BoardActionCreator from "./board"
-export default {
+export const ActionCreators = {
     ...BoardActionCreator
 }

@@ -14,6 +14,9 @@ const Task = ({txt, listID, taskID}) => {
         case 2:
             style.color = "green"
             break;
+        default:
+            style.color = "black"
+            break;
     }
     function dragOverHandler(e) {
         e.preventDefault()

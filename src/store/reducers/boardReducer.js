@@ -20,6 +20,7 @@ export const boardReducer = (state = initialState, action) => {
                 newState[action.payload.boardIndex].tasks
                     .splice(action.payload.taskIndex, 1)
             return newState
+        default:
+            return state;
     }
-    return state
 }
